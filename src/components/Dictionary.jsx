@@ -69,7 +69,7 @@ const Dictionary = () => {
                 </p>
               </div>
             ) : error ? (
-              <h2 className="error">Couldn't Find the word</h2>
+              <h2 className="error">Couldn&apos;t Find the word</h2>
             ) : null}
           
           

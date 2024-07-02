@@ -84,3 +84,31 @@
   text-align: center;
   color: red;
 }
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .dictionary {
+    padding: 25px 25px;
+    top: 35%;
+  }
+  .search-box button {
+    padding: 12px 0px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .dictionary {
+    padding: 20px 20px;
+    top: 35%;
+  }
+  .search-box input {
+    font-size: 16px;
+  }
+  .search-box button {
+    padding: 12px 0px;
+    width: 27%;
+  }
+}
+
